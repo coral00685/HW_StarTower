@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>星星塔</title>
+        
+        <!--A. 星星塔。請寫一支程式，輸出下列圖形:-->
+        <!--    *-->
+        <!--    **-->
+        <!--    ***-->
+        <!--    ****-->
+        <!--    *****-->
+        
+    </head>
+    
+    <body>
+        <div>A. 星星塔<br></br></div>
+        
+        <div id="text"></div>
+        
+        <script>
+            
+            
+            var temp1 = "*";
+            var temp2 = "";
+            
+            for(var i=0; i<5; i++){
+                temp2 += temp1;
+                document.getElementById("text").innerHTML += temp2 +"<br></br>";
+                
+            }
+            
+        </script>
+        
+    </body>
+    
+</html>
